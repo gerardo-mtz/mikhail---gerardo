@@ -12,11 +12,12 @@
     </header>
 
     <p id="description">
-      Description
+      Let us know how we can improve freeCodeCamp
     </p>
       <form id=survey-form>
-        <input id ="name" required>
-        <input type="email" id="email" name="email" input pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+        <label id="name-label"
+        <input class="input-field" id="name" name="name" placeholder="Enter your name" required>
+        <input class="input-field" id="email" name="email" placeholder="Enter your email" required>
         <input class="input-field" type="number" id="number" name="number" min="0" max="999999999" placeholder="number" required>
 
 
