@@ -16,7 +16,7 @@
     </p>
       <form id=survey-form>
         <input id ="name" required>
-        <input id ="email" required>
+        <input type="email" id="email" name="email" input pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
         <input class="input-field" type="number" id="number" name="number" min="0" max="999999999" placeholder="number" required>
 
 
